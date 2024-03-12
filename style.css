@@ -36,7 +36,6 @@
 
 .container
 {
-    height: 100vh;
     background: linear-gradient(to top,#1E90FF, #87CEFA);
 }
 
@@ -49,7 +48,6 @@
     background-image: url(images/wave.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 15px;
     margin-bottom: 60px;
 }
 
@@ -82,7 +80,6 @@
     background-image: url(images/wave2.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    border-radius: 15px;
     margin-bottom: 60px;
 }
 
@@ -102,14 +99,67 @@
     text-shadow: 2px 2px 4px gray;
 }
 
-.video_banco
-{
-    margin-top: 40px;
-}
-
 .video_banco video
 {
-    height: 70vh;
+    height: 65vh;
     border: 3px solid lightgray;
     border-radius: 20px;
 }
+
+.content3
+{
+    display: flex;
+    height: 70vh;
+    background-color: white;
+    align-items: center;
+    background-image: url(images/wave.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 60px;
+    justify-content: center;
+}
+
+.content3 img
+{
+    border: 3px solid white;
+    border-radius: 20px;
+    position: relative;
+    height: 50vh;
+}
+
+.text-card
+{   
+    text-align: center;
+    font-size: 3vh;
+    text-shadow: 2px 2px 4px lightgray;
+    margin-right: 20vh;
+}
+
+.content4
+{
+    height: 20vh;
+    width: 50vh;
+    position: relative;
+    justify-content: center;
+    left: 75vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    border-radius: 30px;
+    font-size: 20px;
+    color: white;
+}
+
+.text-button button
+{
+    background-color: white;
+    margin-top: 30px;
+    font-size: 50px;
+    border: 3px solid lightgray;
+    border-radius: 30px;
+    padding: 10px;
+    border-bottom: 10px solid lightgray;
+}
+
+
+
